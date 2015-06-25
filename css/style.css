@@ -1,7 +1,7 @@
 /*  SPA Style V 1.0.0 / Date: 22 June 2015 / Author: Umar Abbas */
 
 #wrap{ width:100%; margin:0 auto; }
-#line{ background:#29afe2; height:100px; position:absolute; width:100%;}
+#line{ background:#29afe2; height:76px; position:absolute; width:100%;}
 .center{ margin: 0 auto; position: relative; max-width: 1400px; padding-left: 24px; padding-right: 24px;}
 .clear{clear:both;}
 header{   width:100%;  clear:both; position:fixed; }
@@ -16,7 +16,8 @@ header{   width:100%;  clear:both; position:fixed; }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{ background:none;}
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background:none;}
 .navbar-inverse .navbar-toggle { border:none;}
-footer{ border-top:6px solid #00AFF0; background:#2B5464;}
+.navbar {margin-bottom:0px;}
+footer{ border-top:6px solid #00AFF0; background:#2B5464; height:600px; color:#fff;}
 .sec{background-color:#FFC500; height:950px; width:100%;}
 
 
@@ -33,18 +34,19 @@ footer{ border-top:6px solid #00AFF0; background:#2B5464;}
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) 
 {
-.sec{background-color:gray; height:950px; width:100%;}
+.sec{background-color:#fff; height:950px; width:100%;}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) 
 {
-.sec{background-color:blue; height:950px; width:100%;}
-
+.sec{background-color:#fff; height:950px; width:100%;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ background:#29AFE2; box-shadow: 0 0 5px #29AFE2; border:0px;} 
 
 /* Landscape phones and down */
 @media (max-width: 480px) 
 {
-.sec{background-color:red; height:950px; width:100%;}
+.sec{background-color:#fff; height:950px; width:100%;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ background:#29AFE2; box-shadow: 0 0 5px #29AFE2; border:0px;} 
 
 }
