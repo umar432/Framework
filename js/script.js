@@ -4,10 +4,11 @@
 /* jQuery for page scrolling feature - requires jQuery Easing plugin */
 $(function() 
 {
-    $('a').bind('click', function(event) 
+    $('header a').bind('click', function(event) 
 	{
 		
         var $anchor = $(this);
+		$('#myNavbar').removeClass('in')
         $('html, body').stop().animate(
 		{
             scrollTop: $($anchor.attr('href')).offset().top
